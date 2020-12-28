@@ -1,0 +1,5 @@
+function prompt
+{
+    "[$(Get-Date -format yyyy/MM/dd HH:mm:ss)] " + "PS " + $(get-location) + "> "
+}
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
